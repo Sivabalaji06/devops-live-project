@@ -21,8 +21,9 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t yourdockerhubusername/devops-live-project:latest .
+          docker build -t sivabalaji06/devops-live-project:latest .
 
       - name: Push Docker Image
         run: |
-          docker push yourdockerhubusername/devops-live-project:latest
+          docker push sivabalaji06/devops-live-project:latest
+
